@@ -16,7 +16,13 @@ Code Block:
 ```
 {{ frontmatter }}
 ```
-
+```css
+<style>
+h1 {
+  color: cadetblue;
+}
+</style>
+```
 <style>
 h1 {
   color: cadetblue;
@@ -33,13 +39,13 @@ h1 {
 
 <router-link to="/">Home</router-link>
 
-<route>
+<!-- <route>
 {
   meta: {
     layout: 'home'
   }
 }
-</route>
+</route> -->
 
 
 <style>
